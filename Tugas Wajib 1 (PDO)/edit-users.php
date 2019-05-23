@@ -90,7 +90,7 @@ if(isset($_REQUEST['submit']) and $_REQUEST['submit']!=""){
 							<input type="text" name="username" id="username" class="form-control" value="<?php echo $row[0]['username']; ?>" placeholder="Enter user name" required>
 						</div>
 						<div class="form-group">
-							<label>User Jurusan <span class="text-danger">*</span></label>
+							<label>User Jenis Kelamin <span class="text-danger">*</span></label>
 							<select name="userJk" id="userJk" class="form-control" required>
 								<option class="disable selected">pilih jenis kelamin</option>						
 								<option value="Laki-laki">Laki - Laki</option>
