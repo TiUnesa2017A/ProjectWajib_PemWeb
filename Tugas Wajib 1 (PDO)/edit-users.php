@@ -91,7 +91,11 @@ if(isset($_REQUEST['submit']) and $_REQUEST['submit']!=""){
 						</div>
 						<div class="form-group">
 							<label>User Jurusan <span class="text-danger">*</span></label>
-							<input type="email" name="userJk" id="userJk" class="form-control" value="<?php echo $row[0]['userJk']; ?>" placeholder="Enter user email" required>
+							<select name="userJk" id="userJk" class="form-control" required>
+								<option class="disable selected">pilih jenis kelamin</option>						
+								<option value="Laki-laki">Laki - Laki</option>
+								<option value="Perempuan">Perempuan</option>							
+							</select>
 						</div>
 						<div class="form-group">
 							<label>User image <span class="text-danger">*</span></label>
