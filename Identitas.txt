@@ -1,0 +1,5 @@
+Nama : nama anda
+Nim  : nim anda
+kelas : 2017 A
+Prodi : prodi anda
+Github : akun github anda (opsional)
