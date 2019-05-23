@@ -1,0 +1,5 @@
+Nama 	: Fahri Muhammad
+Nim  	: 17051204029
+kelas 	: 2017 A
+Prodi 	: S1 Teknik Informatika
+Github 	: https://github.com/fahrim27
