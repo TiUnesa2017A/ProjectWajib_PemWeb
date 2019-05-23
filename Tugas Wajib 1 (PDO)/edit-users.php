@@ -99,7 +99,8 @@ if(isset($_REQUEST['submit']) and $_REQUEST['submit']!=""){
 						</div>
 						<div class="form-group">
 							<label>User image <span class="text-danger">*</span></label>
-							<input type="file" name="userimage" id="userimage" maxlength="12" class="form-control" value="<?php echo $row[0]['userimage']; ?>" placeholder="Enter user phone" required>
+							<input type="file" name="userimage" id="userimage" class="form-control" required>
+						</div>
 						</div>
 						<div class="form-group">
 							<label>User prodi <span class="text-danger">*</span></label>
