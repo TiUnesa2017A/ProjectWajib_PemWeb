@@ -61,7 +61,7 @@
 							<div class="col-sm-2">
 								<div class="form-group">
 									<label>User Gender</label>
-									<input type="email" name="userJk" id="userJk" class="form-control" value="<?php echo isset($_REQUEST['userJk'])?$_REQUEST['userJk']:''?>" placeholder="Enter user gender">
+									<input type="text" name="userJk" id="userJk" class="form-control" value="<?php echo isset($_REQUEST['userJk'])?$_REQUEST['userJk']:''?>" placeholder="Enter user gender">
 								</div>
 							</div>
 							<div class="col-sm-2">
