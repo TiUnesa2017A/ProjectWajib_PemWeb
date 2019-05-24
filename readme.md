@@ -1,1 +1,7 @@
-Github Pemweb project wajib/ individu(https://github.com/TiUnesa2017A/ProjectWajib_PemWeb.git)
+NAMA : Setri Dwi Prasetiani
+
+NIM : 17051204014
+
+KELAS : 2017 A 
+
+PRODI : S1 Teknik Informatika 
