@@ -1,1 +1,3 @@
-Github Pemweb project wajib/ individu(https://github.com/TiUnesa2017A/ProjectWajib_PemWeb.git)
+nama : test <br>
+nim : test <br>
+kelas :test <br>
