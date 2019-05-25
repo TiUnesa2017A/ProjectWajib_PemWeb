@@ -1,3 +1,3 @@
 Nama : Arizka Lutfi Nuril Hidayati
-NIM : q7051204018
+NIM : !7051204018
 Kelas : TI 2017 A
