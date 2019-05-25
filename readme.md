@@ -1,1 +1,3 @@
-Github Pemweb project wajib/ individu(https://github.com/TiUnesa2017A/ProjectWajib_PemWeb.git)
+Nama : Arizka Lutfi Nuril Hidayati
+NIM : q7051204018
+Kelas : TI 2017 A
