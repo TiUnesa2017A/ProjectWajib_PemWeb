@@ -66,13 +66,13 @@ if(isset($_REQUEST['submit']) and $_REQUEST['submit']!=""){
 		<a href="browse-users.php"><h1 style="text-align: center;">PHP CRUD Based PDO Steatment</h1></a>
 		<?php
 		if(isset($_REQUEST['msg']) and $_REQUEST['msg']=="name"){
-			echo	'<div class="alert alert-danger"><i class="fa fa-exclamation-triangle"></i> User name is mandatory field!</div>';
+			echo	'<div class="alert alert-danger"><i class="fa fa-exclamation-triangle"></i> User name tidak boleh kososng!</div>';
 		}elseif(isset($_REQUEST['msg']) and $_REQUEST['msg']=="jk"){
-			echo	'<div class="alert alert-danger"><i class="fa fa-exclamation-triangle"></i> User jurusan is mandatory field!</div>';
-		}elseif(isset($_REQUEST['msg']) and $_REQUEST['msg']=="image"){
-			echo	'<div class="alert alert-danger"><i class="fa fa-exclamation-triangle"></i> User image is mandatory field!</div>';
+			echo	'<div class="alert alert-danger"><i class="fa fa-exclamation-triangle"></i> User Gender tidak boleh kososng!</div>';
+		}elseif(isset($_REQUEST['msg']) and $_REQUEST['msg']=="nim"){
+			echo	'<div class="alert alert-danger"><i class="fa fa-exclamation-triangle"></i> User nim tidak boleh kososng!</div>';
 		}elseif(isset($_REQUEST['msg']) and $_REQUEST['msg']=="prodi"){
-			echo	'<div class="alert alert-danger"><i class="fa fa-exclamation-triangle"></i> User prodi is mandatory field!</div>';
+			echo	'<div class="alert alert-danger"><i class="fa fa-exclamation-triangle"></i> User prodi tidak boleh kososng!</div>';
 		}elseif(isset($_REQUEST['msg']) and $_REQUEST['msg']=="ras"){
 			echo	'<div class="alert alert-success"><i class="fa fa-thumbs-up"></i> Record added successfully!</div>';
 		}elseif(isset($_REQUEST['msg']) and $_REQUEST['msg']=="rna"){
@@ -98,8 +98,8 @@ if(isset($_REQUEST['submit']) and $_REQUEST['submit']!=""){
 							</select>
 						</div>
 						<div class="form-group">
-							<label>User image <span class="text-danger">*</span></label>
-							<input type="file" name="userimage" id="userimage" class="form-control" required>
+							<label>User Nim <span class="text-danger">*</span></label>
+							<input type="text" name="nim" id="nim" class="form-control" value="<?php echo $row[0]['nim']; ?>" placeholder="Enter user Nim" required>
 						</div>
 						</div>
 						<div class="form-group">
