@@ -1,1 +1,4 @@
-Github Pemweb project wajib/ individu(https://github.com/TiUnesa2017A/ProjectWajib_PemWeb.git)
+NAMA : ELOK NUR FAUZIYAH
+NIM : 17051204051
+KELAS : TI 2017 A
+PRODI : S1 TEKNIK INFORMATIKA
