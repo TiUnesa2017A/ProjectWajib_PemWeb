@@ -1,0 +1,6 @@
+Tanggal dan Jam :26-05-2019 23:27:07 IP : ::1 Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36 Username : guruiqbal Status : Login
+Tanggal dan Jam :26-05-2019 23:27:09 IP : ::1 Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36 Username : guruiqbal Status : Logout
+Tanggal dan Jam :26-05-2019 23:27:17 IP : ::1 Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36 Username : staffiqbal Status : Login
+Tanggal dan Jam :26-05-2019 23:27:19 IP : ::1 Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36 Username : staffiqbal Status : Logout
+Tanggal dan Jam :26-05-2019 23:27:29 IP : ::1 Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36 Username : siswaiqbal Status : Login
+Tanggal dan Jam :26-05-2019 23:27:31 IP : ::1 Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36 Username : siswaiqbal Status : Logout
