@@ -1,1 +1,9 @@
-Github Pemweb project wajib/ individu(https://github.com/TiUnesa2017A/ProjectWajib_PemWeb.git)
+IDENTITAS
+
+Nama : Natanael Chrisanta Rikandi
+
+Nim  : 17051204027
+
+kelas: 2017 A
+
+Prodi: S1 Teknik Informatika
