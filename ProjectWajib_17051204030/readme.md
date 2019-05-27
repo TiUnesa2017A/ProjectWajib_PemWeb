@@ -1,7 +1,7 @@
-Nama     : M. Rizky R.P <br>
+Nama     : MOH. HILMY BADRUDDUJA
 
-Nim      : 17051204034 <br>
+Nim      : 17051204030
 
-kelas    : 2017 A <br>
+kelas    : TI 2017A
 
-Prodi    : S1 Teknik Informatika <br>
+Prodi    : S1 Teknik Informatika
