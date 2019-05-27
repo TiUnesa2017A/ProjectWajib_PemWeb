@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.8.3
+-- version 4.8.5
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 23 Bulan Mei 2019 pada 07.48
--- Versi server: 10.1.35-MariaDB
--- Versi PHP: 7.2.9
+-- Waktu pembuatan: 27 Bulan Mei 2019 pada 16.53
+-- Versi server: 10.1.38-MariaDB
+-- Versi PHP: 7.3.3
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -88,7 +88,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `username`, `userimage`, `userJk`, `userprodi`, `fakultas`, `nim`, `tgl_lahir`, `alamat`, `kota`, `email`, `created_at`) VALUES
-(32, 'asdasdas', 'business-plan.jpg', 'asdadadadaasdad', 'S1 Teknik Informatika', 'Fakultas Teknik', 2147483647, '1999-12-01', 'asdadadadadaadadadaaadadasd', 'Surabaya', 'asdasdadadadasd@gmai', '2019-05-22 18:17:05');
+(33, 'Ayyu Faridatul Masrura', '017 Ayyu F.jpg', 'Perempuan', 'S1 Teknik Informatika', 'Fakultas Teknik', 2147483647, '1999-12-11', 'Ketintang', 'Lumajang', 'ayyu.17051204017@mhs', '2019-05-27 14:31:48'),
+(34, 'Ayyu Faridhatul', '2df33f0ccb5aea23a761967e737b7a3d.jpg', 'Perempuan', 'S1 Teknik Informatika', 'Fakultas Teknik', 32, '1999-11-12', 'Surabaya', 'Jombang', 'ayyu@gmail.com', '2019-05-27 14:36:59');
 
 --
 -- Indexes for dumped tables
@@ -132,7 +133,7 @@ ALTER TABLE `prodi`
 -- AUTO_INCREMENT untuk tabel `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=33;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=35;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

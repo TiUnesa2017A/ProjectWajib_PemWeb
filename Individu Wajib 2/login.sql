@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.8.3
+-- version 4.8.5
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 23 Bulan Mei 2019 pada 07.55
--- Versi server: 10.1.35-MariaDB
--- Versi PHP: 7.2.9
+-- Waktu pembuatan: 27 Bulan Mei 2019 pada 17.14
+-- Versi server: 10.1.38-MariaDB
+-- Versi PHP: 7.3.2
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -44,12 +44,10 @@ CREATE TABLE `loginphp` (
 --
 
 INSERT INTO `loginphp` (`id`, `fullname`, `email`, `username`, `password`, `type`, `active`, `hash`) VALUES
-(11, 'fahri', 'fahri@gmail.com', 'fahri', '$2y$10$1wPZPWYtxesJzQySRrwT4OdusZ1gobsxNl8xsedkNC3ncxU7u.2LS', 'Administrator', 0, '11b921ef080f7736089c757404650e40'),
-(12, 'fahrimm', 'fahri111@gmail.com', 'fahri123', '$2y$10$uC7WIxS6cABd3XArf8bTgefoYW6x8.002HZKypEUqhekEiMOWcUda', 'Administrator', 0, 'fe8c15fed5f808006ce95eddb7366e35'),
-(13, 'aaa', 'aaaaaa@gmail.com', 'aaaaa', '$2y$10$T4ZYpB9zG8DlPjJUeDlYcOvIM0ASqD6H2wPSYjnUdObtetChaDN4e', 'Administrator', 0, '3435c378bb76d4357324dd7e69f3cd18'),
-(14, 'adadadasasd', 'adasdasad@gmail.com', 'dosen', '$2y$10$iQuNn9ZKZUGL3ljOboVjrufB2QU3tbL1qxK/Zzr5S4/laQ0Wnmz2a', 'Dosen', 0, 'fc49306d97602c8ed1be1dfbf0835ead'),
-(15, 'sadasda', 'asdadaaad@gmail.com', 'mahasiswa', '$2y$10$OzQYRMo41/f/s8oRQ843eeLQ6QaqXhlO5NQxTTNTM.dHiFhyTT252', 'Mahasiswa', 0, 'd707329bece455a462b58ce00d1194c9'),
-(19, 'fahri', 'fahrim27@gmail.com', 'fahrim27', '$2y$10$aa4JMc1tDVs.WOQH3BxwLeq2dxZUhRC5jSHkZPNx7C0Q08yGHVAPO', 'Administrator', 0, 'e6cb2a3c14431b55aa50c06529eaa21b');
+(20, 'Ayyu Faridhatul Masrura', 'ayyu.17051204017@mhs.unesa.ac.id', 'ayyufm', '$2y$10$j0ONcPSmLHOl3uD7EsjGROT3GRG30izqYHc3P5c0knDIjMbAVFnFO', 'Administrator', 0, '788d986905533aba051261497ecffcbb'),
+(21, 'AyyuF', 'ayyu.17051204017@mhs.unesa.ac.id', 'ayyuf', '$2y$10$icQ2UntRqfhaC1gq7mDLXefVrKsPBlA5Ns8.JI5tqF0nSJjQbFUOW', 'Dosen', 0, '9b698eb3105bd82528f23d0c92dedfc0'),
+(22, 'Ayyu F. M', 'ayyu@gmail.com', 'ayyuff', '$2y$10$kCr.krrag.D7T4Bn5LjVvOES/lY/OVvhheyVqVC1GIUvh.N/AXp9a', 'Mahasiswa', 0, 'e7f8a7fb0b77bcb3b283af5be021448f'),
+(23, 'Ayyu', 'Ayyu@gmail.com', 'Ayyu', '$2y$10$MtSbJ4ySbWUsWF4/VZ838.dch0MsOAg0hjS7UAx4CJWU6SCxfl80W', 'Mahasiswa', 0, '85fc37b18c57097425b52fc7afbb6969');
 
 --
 -- Indexes for dumped tables
@@ -71,7 +69,7 @@ ALTER TABLE `loginphp`
 -- AUTO_INCREMENT untuk tabel `loginphp`
 --
 ALTER TABLE `loginphp`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
