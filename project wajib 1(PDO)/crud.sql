@@ -1,75 +1,55 @@
--- phpMyAdmin SQL Dump
--- version 4.8.3
--- https://www.phpmyadmin.net/
---
--- Host: 127.0.0.1
--- Waktu pembuatan: 23 Bulan Mei 2019 pada 10.52
--- Versi server: 10.1.37-MariaDB
--- Versi PHP: 7.2.12
+/*
+SQLyog Enterprise - MySQL GUI v8.1 
+MySQL - 5.5.5-10.1.36-MariaDB : Database - crud
+*********************************************************************
+*/
 
-SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT = 0;
-START TRANSACTION;
-SET time_zone = "+00:00";
+/*!40101 SET NAMES utf8 */;
 
+/*!40101 SET SQL_MODE=''*/;
 
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8mb4 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 
---
--- Database: `crud`
---
+CREATE DATABASE /*!32312 IF NOT EXISTS*/`crud` /*!40100 DEFAULT CHARACTER SET latin1 */;
 
--- --------------------------------------------------------
+USE `crud`;
 
---
--- Struktur dari tabel `fakultas`
---
+/*Table structure for table `fakultas` */
+
+DROP TABLE IF EXISTS `fakultas`;
 
 CREATE TABLE `fakultas` (
-  `id` int(11) NOT NULL,
-  `fakultas` varchar(40) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `fakultas` varchar(40) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
 
---
--- Dumping data untuk tabel `fakultas`
---
+/*Data for the table `fakultas` */
 
-INSERT INTO `fakultas` (`id`, `fakultas`) VALUES
-(1, 'Fakultas Teknik');
+insert  into `fakultas`(id,fakultas) values (1,'Fakultas Teknik');
 
--- --------------------------------------------------------
+/*Table structure for table `prodi` */
 
---
--- Struktur dari tabel `prodi`
---
+DROP TABLE IF EXISTS `prodi`;
 
 CREATE TABLE `prodi` (
-  `id` int(11) NOT NULL,
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `prodi` varchar(40) NOT NULL,
-  `id_fakultas` int(10) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+  `id_fakultas` int(10) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=latin1;
 
---
--- Dumping data untuk tabel `prodi`
---
+/*Data for the table `prodi` */
 
-INSERT INTO `prodi` (`id`, `prodi`, `id_fakultas`) VALUES
-(1, 'S1 Teknik Informatika', 1),
-(2, 'S1 Sistem Informasi', 1),
-(3, 'S1 PTI', 1),
-(4, 'D3 Manajemen Informatika', 1);
+insert  into `prodi`(id,prodi,id_fakultas) values (1,'S1 Teknik Informatika',1),(2,'S1 Sistem Informasi',1),(3,'S1 PTI',1),(4,'D3 Manajemen Informatika',1);
 
--- --------------------------------------------------------
+/*Table structure for table `users` */
 
---
--- Struktur dari tabel `users`
---
+DROP TABLE IF EXISTS `users`;
 
 CREATE TABLE `users` (
-  `id` int(11) NOT NULL,
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `username` varchar(40) NOT NULL,
   `userimage` varchar(40) NOT NULL,
   `userJk` varchar(40) NOT NULL,
@@ -80,62 +60,13 @@ CREATE TABLE `users` (
   `alamat` varchar(40) NOT NULL,
   `kota` varchar(20) NOT NULL,
   `email` varchar(20) NOT NULL,
-  `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+  `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=51 DEFAULT CHARSET=latin1;
 
---
--- Dumping data untuk tabel `users`
---
+/*Data for the table `users` */
 
-INSERT INTO `users` (`id`, `username`, `userimage`, `userJk`, `userprodi`, `fakultas`, `nim`, `tgl_lahir`, `alamat`, `kota`, `email`, `created_at`) VALUES
-(33, 'atikah', '5.jpg', 'Perempuan', 'S1 Sistem Informasi', 'Fakultas Teknik', 79, '2019-05-23', 'mojokerto', 'Surabaya', 'atikah@gmail.com', '2019-05-23 08:20:46'),
-(35, 'atikah adawiyyah', 'aa.jpg', 'Perempuan', 'S1 Teknik Informatika', 'Fakultas Teknik', 79, '2019-03-13', 'mojokerto', 'Mojokerto', 'atikahadawiyyah@gmai', '2019-05-23 08:48:05');
+insert  into `users`(id,username,userimage,userJk,userprodi,fakultas,nim,tgl_lahir,alamat,kota,email,created_at) values (50,'Syarif Hidayatulloh','1.png','Laki-laki','S1 Teknik Informatika','Fakultas Teknik',2147483647,'1998-09-15','Sidoarjo','Surabaya','syarif290715@gmail.c','2019-05-27 13:38:48');
 
---
--- Indexes for dumped tables
---
-
---
--- Indeks untuk tabel `fakultas`
---
-ALTER TABLE `fakultas`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indeks untuk tabel `prodi`
---
-ALTER TABLE `prodi`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indeks untuk tabel `users`
---
-ALTER TABLE `users`
-  ADD PRIMARY KEY (`id`);
-
---
--- AUTO_INCREMENT untuk tabel yang dibuang
---
-
---
--- AUTO_INCREMENT untuk tabel `fakultas`
---
-ALTER TABLE `fakultas`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
-
---
--- AUTO_INCREMENT untuk tabel `prodi`
---
-ALTER TABLE `prodi`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
-
---
--- AUTO_INCREMENT untuk tabel `users`
---
-ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=36;
-COMMIT;
-
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
