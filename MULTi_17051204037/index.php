@@ -27,7 +27,7 @@ if(isset($_POST['login'])){
 		    <span class="sr-only">100% Complete</span>
 		  </div>
 		</div>
-                <script>location.href="admin/index.php"</script>
+                <script>location.href="admin.php"</script>
                 <?php
             } else{
                 echo '<div class="alert alert-warning" role="alert">Account is not active, please open your email inbox and click link activation.</div>';

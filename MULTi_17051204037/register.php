@@ -53,7 +53,7 @@ if(isset($_POST['reg'])){
                 $_SESSION['fullname'] = $full;
                 $_SESSION['type'] = $type;
                 ?>
-                <script>location.href="admin/index.php"</script>
+                <script>location.href="admin.php"</script>
                 <?php
             } else{
                 echo '<div class="alert alert-warning" role="alert">Account is not active, please open your email inbox and click link activation.</div>';
@@ -98,7 +98,7 @@ if(isset($_POST['reg'])){
             <button type="submit" name="reg" class="btn btn-primary btn-block">Register</button>
             <p style="clear:both;">
                 <div style="float:left;"></div>
-                <div style="float:right;"><a href="index.php">Login Existing User</a></div>
+                <div style="float:right;"><a href="index.php">Ke MenuLogin</a></div>
             </p>
         </form>
     </div>

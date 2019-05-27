@@ -38,9 +38,9 @@ if(isset($_POST['new'])){
                 <label for="pw2">Re-Enter Password</label>
                 <input type="password" id="pw2" name="pw2" class="form-control" placeholder="Kata sandi ulang" required/>
             </div>
-            <button type="submit" name="new" class="btn btn-primary btn-block">Update Password</button>
+            <button type="submit" name="new" class="btn btn-primary btn-block">perbarui Password</button>
             <p style="clear:both;">
-                <div style="float:left;"><a href="index.php">Back to login user</a></div>
+                <div style="float:left;"><a href="index.php">kembali to login</a></div>
                 <div style="float:right;"></div>
             </p>
         </form>

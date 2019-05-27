@@ -21,7 +21,7 @@ include "config.php";
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body>
+  <body style="background-color: green;">
       
     <div class="container">
         <div class="row">
