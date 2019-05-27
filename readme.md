@@ -1,1 +1,4 @@
-Github Pemweb project wajib/ individu(https://github.com/TiUnesa2017A/ProjectWajib_PemWeb.git)
+Nama      : Shinta Yuan Ayu Pratiwi
+Nim       : 17051204046
+Prodi     : S1 Teknik Informatika A
+Angkatan  : 2017
